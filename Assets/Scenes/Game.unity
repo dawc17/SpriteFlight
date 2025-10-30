@@ -596,6 +596,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1017955973}
     m_Modifications:
+    - target: {fileID: -2912526095405234041, guid: 3a13bca65599ed84f99a83be8a5f4e9a, type: 3}
+      propertyPath: maxSize
+      value: 1.8
+      objectReference: {fileID: 0}
+    - target: {fileID: -2912526095405234041, guid: 3a13bca65599ed84f99a83be8a5f4e9a, type: 3}
+      propertyPath: maxSpeed
+      value: 800
+      objectReference: {fileID: 0}
+    - target: {fileID: -2912526095405234041, guid: 3a13bca65599ed84f99a83be8a5f4e9a, type: 3}
+      propertyPath: minSpeed
+      value: 500
+      objectReference: {fileID: 0}
     - target: {fileID: 2846091877912554229, guid: 3a13bca65599ed84f99a83be8a5f4e9a, type: 3}
       propertyPath: m_Name
       value: Obstacle (5)
@@ -1084,6 +1096,61 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a13bca65599ed84f99a83be8a5f4e9a, type: 3}
+--- !u!1 &1461388450
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1461388452}
+  - component: {fileID: 1461388451}
+  m_Layer: 5
+  m_Name: GameUI
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1461388451
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1461388450}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 19102, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.dll::UnityEngine.UIElements.UIDocument
+  m_PanelSettings: {fileID: 11400000, guid: 2ae7e04b281ed5b46b2492a1fc40ebd1, type: 2}
+  m_ParentUI: {fileID: 0}
+  sourceAsset: {fileID: 9197481963319205126, guid: 6bfd20fef63edbb429e90949815cbcd2, type: 3}
+  m_SortingOrder: 0
+  m_Position: 0
+  m_WorldSpaceSizeMode: 1
+  m_WorldSpaceWidth: 1920
+  m_WorldSpaceHeight: 1080
+  m_PivotReferenceSize: 0
+  m_Pivot: 0
+  m_WorldSpaceCollider: {fileID: 0}
+--- !u!4 &1461388452
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1461388450}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1591939322 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5216669958609808907, guid: ce03cd43ab9e2604c98e3f00ae7ccc8d, type: 3}
@@ -1507,6 +1574,14 @@ PrefabInstance:
       propertyPath: booster
       value: 
       objectReference: {fileID: 1016902821839608988}
+    - target: {fileID: 8358829158205621156, guid: ce03cd43ab9e2604c98e3f00ae7ccc8d, type: 3}
+      propertyPath: uiDocument
+      value: 
+      objectReference: {fileID: 1461388451}
+    - target: {fileID: 8358829158205621156, guid: ce03cd43ab9e2604c98e3f00ae7ccc8d, type: 3}
+      propertyPath: explosionEffect
+      value: 
+      objectReference: {fileID: 113998608242526521, guid: 52a8f4ebac3aa9b47877677b3e3026e2, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -1538,6 +1613,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1017955973}
     m_Modifications:
+    - target: {fileID: -2912526095405234041, guid: 3a13bca65599ed84f99a83be8a5f4e9a, type: 3}
+      propertyPath: maxSize
+      value: 1.8
+      objectReference: {fileID: 0}
+    - target: {fileID: -2912526095405234041, guid: 3a13bca65599ed84f99a83be8a5f4e9a, type: 3}
+      propertyPath: maxSpeed
+      value: 800
+      objectReference: {fileID: 0}
+    - target: {fileID: -2912526095405234041, guid: 3a13bca65599ed84f99a83be8a5f4e9a, type: 3}
+      propertyPath: minSpeed
+      value: 500
+      objectReference: {fileID: 0}
     - target: {fileID: 2846091877912554229, guid: 3a13bca65599ed84f99a83be8a5f4e9a, type: 3}
       propertyPath: m_Name
       value: Obstacle
@@ -1658,3 +1745,4 @@ SceneRoots:
   - {fileID: 1017955973}
   - {fileID: 433046913}
   - {fileID: 5876048591907609914}
+  - {fileID: 1461388452}

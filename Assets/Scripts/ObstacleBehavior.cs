@@ -3,10 +3,10 @@ using UnityEngine;
 public class ObstacleBehavior : MonoBehaviour
 {
     public float minSize = 0.5f;
-    public float maxSize = 3.0f;
+    public float maxSize = 1.2f;
 
-    public float minSpeed = 350f;
-    public float maxSpeed = 700f;
+    public float minSpeed = 750f;
+    public float maxSpeed = 900f;
 
     public float maxSpinSpeed = 10f;
 
